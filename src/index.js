@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import exampleWeatherData from "./exampleWeatherData";
+import weatherDataPlaceholders from "./weatherDataPlaceholders";
 import useDateInfo from "./useDateInfo";
 import "./styles.css";
 
@@ -19,7 +19,7 @@ function App() {
     minutes, // example: "05"
     seconds, // example: "02"
     formattedTime // 15:05:00
-  } = useDateInfo(exampleWeatherData.timestamp);
+  } = useDateInfo(weatherDataPlaceholders.timestamp);
 
   return (
     <div className="App">
