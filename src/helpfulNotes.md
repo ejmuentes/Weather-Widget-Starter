@@ -24,7 +24,7 @@
 
 ```jsx
 <img
-  alt={openWeatherMapExample.icon.desc}
-  src={`http://openweathermap.org/img/w/${openWeatherMapExample.icon.code}.png`}
+  alt={weatherDataPlaceholders.icon.desc}
+  src={`http://openweathermap.org/img/w/${weatherDataPlaceholders.icon.code}.png`}
 />
 ```
